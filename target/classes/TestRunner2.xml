@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" parallel="tests" thread-count="2" verbose="1" >
+  <test name="WikiPageTest" >
+    <classes>
+       <class name="com.qa.testNGScripts.TestNGSeleniumScript" />
+    </classes>
+  </test>
+   <test name="RediffPageTest" >
+    <classes>
+       <class name="com.qa.testNGScripts.TestNGSeleniumScript2" />
+       
+    </classes>
+  </test>
+
+  </suite>

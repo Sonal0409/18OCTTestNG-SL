@@ -1,0 +1,27 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" >
+  <test name="AnnotationTest" >
+  <groups>
+  <run>
+  <exclude name="UnitTesting"></exclude>
+  </run>
+  </groups>
+    <classes>
+       <class name="com.qa.testNGScripts.Annotations5" />
+    </classes>
+  </test>
+   <test name="AnnotationTest2" >
+    <classes>
+       <class name="com.qa.testNGScripts.Annotations6" />
+    </classes>
+  </test>
+  
+     <test name="AnnotationTest3" >
+    <classes>
+       <class name="com.qa.testNGScripts.Annotations3" />
+    </classes>
+  </test>
+
+  </suite>
