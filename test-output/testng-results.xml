@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-19T13:03:50 IST" name="Default suite" finished-at="2021-10-19T13:03:56 IST" duration-ms="5171">
+  <suite started-at="2021-10-19T17:56:18 IST" name="Default suite" finished-at="2021-10-19T17:56:23 IST" duration-ms="5925">
     <groups>
     </groups>
-    <test started-at="2021-10-19T13:03:50 IST" name="Default test" finished-at="2021-10-19T13:03:56 IST" duration-ms="5171">
+    <test started-at="2021-10-19T17:56:18 IST" name="Default test" finished-at="2021-10-19T17:56:23 IST" duration-ms="5925">
       <class name="extentreportsdemo.ExtentScreenshot">
-        <test-method is-config="true" signature="setExtent()[pri:0, instance:extentreportsdemo.ExtentScreenshot@35aea049]" started-at="2021-10-19T13:03:50 IST" name="setExtent" finished-at="2021-10-19T13:03:51 IST" duration-ms="207" status="PASS">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:extentreportsdemo.ExtentScreenshot@35aea049]" started-at="2021-10-19T17:56:18 IST" name="setExtent" finished-at="2021-10-19T17:56:18 IST" duration-ms="389" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:extentreportsdemo.ExtentScreenshot@35aea049]" started-at="2021-10-19T13:03:51 IST" name="setup" finished-at="2021-10-19T13:03:52 IST" duration-ms="1839" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:extentreportsdemo.ExtentScreenshot@35aea049]" started-at="2021-10-19T17:56:18 IST" name="setup" finished-at="2021-10-19T17:56:20 IST" duration-ms="1991" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="freeCrmTitleTest()[pri:0, instance:extentreportsdemo.ExtentScreenshot@35aea049]" started-at="2021-10-19T13:03:52 IST" name="freeCrmTitleTest" finished-at="2021-10-19T13:03:53 IST" duration-ms="1077" status="FAIL">
+        <test-method signature="WikiTest()[pri:0, instance:extentreportsdemo.ExtentScreenshot@35aea049]" started-at="2021-10-19T17:56:20 IST" name="WikiTest" finished-at="2021-10-19T17:56:21 IST" duration-ms="1135" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Fail] but found [Wikipedia]]]>
@@ -28,7 +28,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
 at org.testng.Assert.assertEquals(Assert.java:639)
-at extentreportsdemo.ExtentScreenshot.freeCrmTitleTest(ExtentScreenshot.java:88)
+at extentreportsdemo.ExtentScreenshot.WikiTest(ExtentScreenshot.java:92)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -62,19 +62,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- freeCrmTitleTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:extentreportsdemo.ExtentScreenshot@35aea049]" started-at="2021-10-19T13:03:53 IST" name="tearDown" finished-at="2021-10-19T13:03:55 IST" duration-ms="1646" status="PASS">
+        </test-method> <!-- WikiTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:extentreportsdemo.ExtentScreenshot@35aea049]" started-at="2021-10-19T17:56:21 IST" name="tearDown" finished-at="2021-10-19T17:56:23 IST" duration-ms="1886" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=freeCrmTitleTest status=FAILURE method=ExtentScreenshot.freeCrmTitleTest()[pri:0, instance:extentreportsdemo.ExtentScreenshot@35aea049] output={null}]]]>
+                <![CDATA[[TestResult name=WikiTest status=FAILURE method=ExtentScreenshot.WikiTest()[pri:0, instance:extentreportsdemo.ExtentScreenshot@35aea049] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:extentreportsdemo.ExtentScreenshot@35aea049]" started-at="2021-10-19T13:03:55 IST" name="endReport" finished-at="2021-10-19T13:03:56 IST" duration-ms="370" status="PASS">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:extentreportsdemo.ExtentScreenshot@35aea049]" started-at="2021-10-19T17:56:23 IST" name="endReport" finished-at="2021-10-19T17:56:23 IST" duration-ms="478" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->

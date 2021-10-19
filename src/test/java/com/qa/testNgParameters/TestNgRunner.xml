@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" >
+  <test name="ParameterTest1" >
+  <parameter name="Input" value="Selenium Automation"></parameter>
+  <classes>
+       <class name="com.qa.testNgParameters.ParameterXMLDemo" />
+    </classes>
+  </test>
+   <test name="ParameterTest2" >
+  <parameter name="Input" value="Appium Automation"></parameter>
+  <classes>
+       <class name="com.qa.testNgParameters.ParameterXMLDemo" />
+    </classes>
+  </test>
+   <test name="ParameterTest3" >
+  <parameter name="Input" value="Jmeter Automation"></parameter>
+  <classes>
+       <class name="com.qa.testNgParameters.ParameterXMLDemo" />
+    </classes>
+  </test>
+  </suite>

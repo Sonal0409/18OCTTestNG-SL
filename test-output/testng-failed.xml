@@ -6,8 +6,8 @@
       <class name="extentreportsdemo.ExtentScreenshot">
         <methods>
           <include name="tearDown"/>
+          <include name="WikiTest"/>
           <include name="endReport"/>
-          <include name="freeCrmTitleTest"/>
           <include name="setExtent"/>
           <include name="setup"/>
         </methods>

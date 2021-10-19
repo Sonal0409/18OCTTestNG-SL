@@ -1,5 +1,6 @@
 package com.qa.testNGScripts;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class Annotation2 {
@@ -12,8 +13,9 @@ public class Annotation2 {
 	{
         int a=10;
         int b=20;
-        
+        int result = a+b;
 		System.out.println(a+b);
+		Assert.assertTrue(result>40);
 
 	}
 	

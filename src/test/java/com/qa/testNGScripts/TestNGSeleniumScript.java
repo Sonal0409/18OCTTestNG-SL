@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -25,8 +26,14 @@ public class TestNGSeleniumScript {
 	@Test(priority='1',description="test Wikipedia homepage")
 	public void TestWikiHomePage()
 	{
+		String expected = "Wikipedia";
 		String title = driver.getTitle();
 		System.out.println(" title of HomePage is: " + title);
+		// only if title of the page is valid, then go ahead and execute line 31 and 32
+		
+		Assert.assertEquals(title, expected, "title didnot match");
+			
+		
 		driver.findElement(By.xpath("//*[@id='www-wikipedia-org']/descendant::input[3]")).sendKeys("Selenium Automation");
 		
 		driver.findElement(By.xpath("//*[@id='www-wikipedia-org']/descendant::button[1]")).click();
@@ -42,7 +49,6 @@ public class TestNGSeleniumScript {
 		//driver.findElement(By.xpath("//*[@id='www-wikipedia-org']/descendant::button[1]")).click();
 		
 	
-		
 		String title = driver.getTitle();
 		System.out.println("The title of search page is : " + title);
 		driver.findElement(By.linkText("Main page")).click();
