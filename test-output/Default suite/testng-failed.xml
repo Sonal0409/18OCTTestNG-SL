@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.testNGScripts.TestNGSeleniumScript2">
+      <class name="extentreportsdemo.ExtentScreenshot">
         <methods>
-          <include name="AccountTest"/>
+          <include name="tearDown"/>
+          <include name="endReport"/>
+          <include name="freeCrmTitleTest"/>
+          <include name="setExtent"/>
           <include name="setup"/>
-          <include name="TestCreateAccount"/>
         </methods>
-      </class> <!-- com.qa.testNGScripts.TestNGSeleniumScript2 -->
+      </class> <!-- extentreportsdemo.ExtentScreenshot -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
